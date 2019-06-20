@@ -1,0 +1,89 @@
+html {
+  font-family: "Mali", cursive;
+  font-size: 1.2vw;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1485841890310-6a055c88698a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format");
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 95%;
+  margin: auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 30% 30% 45%;
+}
+
+#events-list {
+  grid-column-start: 3;
+  text-align: center;
+  justify-self: center;
+  min-width: 70%;
+}
+
+#closest-event {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  text-align: center;
+  font-size: 1.3vw;
+}
+
+#event-form {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+#event-form button {
+  background-color: #ff3c38;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  margin-top: 25px;
+  font-size: 1vw;
+  text-align: center;
+  text-decoration: none;
+}
+
+.delete-events {
+  background-color: #550527;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  margin-top: 25px;
+  font-size: 1vw;
+  text-align: center;
+  text-decoration: none;
+}
+.delete-events:hover {
+  cursor: pointer;
+}
+.event {
+  border: solid 3px #ff3c38;
+  border-radius: 25px;
+  margin-top: 15px;
+}
+
+.time-element {
+  font-weight: bold;
+  font-size: 1.6vw;
+}
+
+input,
+label {
+  display: block;
+}
+
+input {
+  width: 50%;
+  padding: 12px;
+  border: 2px solid #faa613;
+  border-radius: 5px;
+  font-size: 0.8vw;
+}
