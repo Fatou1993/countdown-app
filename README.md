@@ -4,7 +4,7 @@ React App that enables events countdown.
 
 This project was inspired from [app-ideas](https://github.com/florinpop17/app-ideas "App Ideas Collection")
 
-![](countdown_app.gif)
+![](countdown.gif)
 
 ## Resources used to create this project
 
